@@ -21,6 +21,26 @@ The platform analyzes live guitar input to provide instant feedback regarding rh
 
 ---
 
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Live Session Analysis
+
+![Live Session](screenshots/live-session.png)
+
+### Performance Analytics
+
+![Analytics](screenshots/analytics.png)
+
+### AI Practice Plans
+
+![Practice Plans](screenshots/practice-plans.png)
+
+---
+
 ## Technical Highlights
 
 * Real-time audio analysis workflows
@@ -64,11 +84,8 @@ The platform analyzes live guitar input to provide instant feedback regarding rh
 
 ## Project Structure
 
-```txt
-frontend/
-backend/
-audio-processing/
-ai/
+```txt id="9jlwm7"
+src/
 screenshots/
 docs/
 ```
