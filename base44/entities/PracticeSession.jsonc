@@ -1,0 +1,76 @@
+{
+  "name": "PracticeSession",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "duration_seconds": {
+      "type": "number"
+    },
+    "timing_accuracy": {
+      "type": "number",
+      "description": "0-100 percentage"
+    },
+    "rhythm_consistency": {
+      "type": "number",
+      "description": "0-100 percentage"
+    },
+    "tempo_stability": {
+      "type": "number",
+      "description": "0-100 percentage"
+    },
+    "overall_score": {
+      "type": "number",
+      "description": "0-100 percentage"
+    },
+    "bpm": {
+      "type": "number"
+    },
+    "mistakes_count": {
+      "type": "number"
+    },
+    "notes_played": {
+      "type": "number"
+    },
+    "difficulty_level": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert"
+      ]
+    },
+    "exercise_type": {
+      "type": "string",
+      "enum": [
+        "scales",
+        "chords",
+        "fingerpicking",
+        "strumming",
+        "song",
+        "improvisation",
+        "technique"
+      ]
+    },
+    "key_signature": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "ai_feedback": {
+      "type": "string"
+    },
+    "mistake_details": {
+      "type": "string",
+      "description": "JSON string of mistake timestamps and types"
+    }
+  },
+  "required": [
+    "title",
+    "duration_seconds",
+    "overall_score"
+  ]
+}
